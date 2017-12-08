@@ -236,3 +236,35 @@ figure {
     width: 50%;
   }
 }
+@media (min-width: 992px){
+  .movie-backdrop {
+    display: none;
+  }
+  .movie {
+    overflow: hidden;
+  }
+  .movie:first-child {
+    width: 100%;
+  }
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+  .movie:first-child .movie-poster {
+    display: none;
+  }
+  .movie:first-child .movie-overview {
+    display: block;
+    margin-left: 5%;
+  }
+  .movie h1 {
+    margin-left: 5%;
+  }
+  .movie-poster {
+    display: block;
+  }
+  .movie{
+    float: left;
+    width: 33.33%;
+    margin: 0;
+  }
+}
